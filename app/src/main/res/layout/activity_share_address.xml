@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".shareAddress">
+
+<!--    <EditText-->
+<!--        android:id="@+id/latlong"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+
+<!--        android:text="asdfasd"-->
+<!--        android:textSize="20dp">-->
+
+<!--    </EditText>-->
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="602dp"
+        android:layout_gravity="bottom"
+
+        />
+
+    <TextView
+        android:id="@+id/busName"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#1DAA6DB3"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="TextView"
+        android:textColor="#221E1E"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+</FrameLayout>

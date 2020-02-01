@@ -1,0 +1,7 @@
+<resources>
+    <string name="access_token">pk.eyJ1IjoiZGhydWJhMDU5IiwiYSI6ImNrNDVhaDA0MzA3ZzUzbW5uaTFuOXpoMGoifQ.gggdEoq1F1NWmgBtc1Zwcw</string>
+    <string name="app_name">SUST Bus</string>
+    <string name="user_location_permission_explanation">Location permission needed</string>
+    <string name="user_location_permission_not_granted">Location permission not granted</string>
+    <string name="result_text_default">focus on camera</string>
+</resources>

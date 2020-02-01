@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9E9DE"
+    tools:context=".qrCodeScanner">
+
+
+    <Button
+        android:layout_width="224dp"
+        android:layout_height="36dp"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginBottom="156dp"
+        android:background="@color/colorPrimary"
+        android:foregroundGravity="center"
+        android:gravity="center_horizontal|center_vertical"
+        android:onClick="scan"
+        android:text="scan"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:text="Scan the QR code to provide bus location"
+        android:textColor="#030000"
+        android:textSize="18dp" />
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:id="@+id/activity_main"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:paddingBottom="16dp"-->
+<!--    android:paddingLeft="16dp"-->
+<!--    android:paddingRight="16dp"-->
+<!--    android:paddingTop="16dp"-->
+<!--    tools:context=".qrCodeScanner">-->
+
+
+<!--    <SurfaceView-->
+<!--        android:id="@+id/cameraPreview"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="480px" />-->
+<!--    <TextView-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:gravity="center_horizontal"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_below="@+id/cameraPreview"-->
+<!--        android:id="@+id/txtResult"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="@string/result_text_default"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content" />-->
+
+<!--</RelativeLayout>-->

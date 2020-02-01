@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "117470716289",
+    "firebase_url": "https://bustracking-4fc9f.firebaseio.com",
+    "project_id": "bustracking-4fc9f",
+    "storage_bucket": "bustracking-4fc9f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117470716289:android:c51ecf79f4494614364880",
+        "android_client_info": {
+          "package_name": "com.example.bus_tracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117470716289-1fe0aoqe66bjg287vvfk4p5jdmc3c6gj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bus_tracking",
+            "certificate_hash": "2d38aa69fba839983390d89e23988c79a7dc1557"
+          }
+        },
+        {
+          "client_id": "117470716289-pfn90uv4nf5ta70f5r6jqoakvaceblhb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQL95ZtsasgDQL_rh2g8rKgMtbpl6lD6Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117470716289-pfn90uv4nf5ta70f5r6jqoakvaceblhb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
